@@ -1,0 +1,111 @@
+body{
+    font-family:'Inter',sans-serif;
+
+    background:
+        linear-gradient(
+            rgba(10,25,45,.40),
+            rgba(10,25,45,.40)
+        ),
+        url("../images/bg.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+
+    min-height:100vh;
+}
+
+.card{
+    background:rgba(225,235,245,.88);
+
+    backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);
+
+    border:none;
+
+    border-radius:18px;
+
+    box-shadow:0 8px 24px rgba(0,0,0,.18);
+}
+
+.card-header{
+
+    background:#1f4e79 !important;
+
+    color:white !important;
+
+    font-weight:600;
+
+    border-top-left-radius:18px !important;
+    border-top-right-radius:18px !important;
+}
+
+.card-header h5{
+    margin:0;
+}
+
+.form-control{
+
+    border-radius:10px;
+
+    padding:.7rem 1rem;
+
+    font-size:.95rem;
+
+}
+
+.btn{
+
+    border-radius:10px;
+
+    font-weight:600;
+
+    padding:.7rem 1rem;
+
+}
+
+.table th{
+
+    font-weight:600;
+
+}
+
+.table td{
+
+    vertical-align:middle;
+
+}
+
+.loader{
+
+    width:60px;
+    height:60px;
+
+    border:5px solid rgba(255,255,255,.25);
+
+    border-top:5px solid #4fc3f7;
+
+    border-radius:50%;
+
+    animation:spin 1s linear infinite;
+
+    margin:auto;
+
+}
+
+@keyframes spin{
+
+    from{
+
+        transform:rotate(0deg);
+
+    }
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+}
